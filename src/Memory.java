@@ -36,7 +36,7 @@ public class Memory extends JFrame implements ActionListener {
     private JMenuItem avsluta1 = new JMenuItem("Avsluta");
     private JMenuItem antalspelare = new JMenuItem("Antal spelare");
     private JPanel playerPanel = new JPanel();
-
+    //Model
     private Memory() {
         nCardsVisible = 0;
         turnTracker = 0;
